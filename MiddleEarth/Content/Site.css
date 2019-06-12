@@ -23,7 +23,11 @@ textarea {
     max-width: 280px;
 }
 
-.map img{
+#map-wrapper{
+    position: relative;
+}
+
+#map-wrapper img {
     max-width: 1278px;
     width: 100%;
 }
@@ -42,6 +46,54 @@ textarea {
     width: 40px;
     height: 40px;
 }
+
+.map-point {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #f00;
+    position: absolute;
+}
+
+/*PopUp Section*/
+
+.popup-overlay,
+.popup-content {
+    visibility: hidden;
+}
+
+.popup-overlay.active,
+.popup-content.active{
+    visibility: visible;
+}
+
+.popup-overlay {
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+}
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
+}
+
+    button:hover {
+        border: 1px solid #666666;
+        background: #666666;
+        color: #ffffff;
+    }
+
+/*End of PopUp Section*/
 
 @media only screen and (max-width: 1278){
 
