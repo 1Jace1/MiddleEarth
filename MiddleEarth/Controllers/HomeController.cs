@@ -16,7 +16,7 @@ namespace MiddleEarth.Controllers
 			XMLReaderHelper helper = new XMLReaderHelper();
 			
 			//path und nodes vllt korrigieren in der methode vom reader
-			model.Cities = helper.XMLReader("", new List<string>());
+			//model.Cities = helper.XMLReader("", new List<string>());
 
 			return View(model);
 		}

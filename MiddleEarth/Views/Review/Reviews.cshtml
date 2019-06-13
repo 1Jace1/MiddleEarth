@@ -1,0 +1,40 @@
+﻿@model MiddleEarth.Models.ReviewsModel
+
+<form class="review-form" action="@Url.Action("", "Review")">
+	<div>
+		<span class="user">Name</span><input type="text" class="user-input" />
+		<label for="text">Kommentar</label>
+		<textarea id="text" name="text" cols="100" rows="5"></textarea>
+		<span class="stars">Stars</span><input type="number" class="user-input" min="0" max="5" />
+		<input type="submit" class="submit-button" />
+	</div>
+</form>
+
+@if (Model.ListOfReviews.Any())
+{
+
+	foreach (var item in Model.ListOfReviews)
+	{
+		<div class="user-reviews">
+			<h2 class="review-user">@item.User</h2>
+			<p class="review-text">@item.Comment</p>
+			<p class="review-date">@item.TimeAndDateOnPublish</p>
+
+			<div class="stars">
+				@for (int i = 1; i <= item.StarRatingNumber; i++)
+				{
+					<span class="fa fa-star checked"></span>
+					if (i == item.StarRatingNumber && i < 5)
+					{
+						for (int j = i; j < 5; j++)
+						{
+							<span class="fa fa-star"></span>
+						}
+					}
+				}
+			</div>
+		</div>
+	}
+
+}
+

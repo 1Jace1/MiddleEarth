@@ -23,6 +23,10 @@ textarea {
     max-width: 280px;
 }
 
+.checked{
+	color: orange;
+}
+
 #map-wrapper{
     position: relative;
 }
@@ -55,11 +59,39 @@ textarea {
     position: absolute;
 }
 
-/*PopUp Section*/
+/* Review Section*/
 
+.review-form{
+	display: block;
+	float: right;
+}
+
+.review-form div{
+	float: left;
+	display: grid;
+}
+
+.review-form #text{
+	resize: none;
+	overflow: auto;
+}
+
+.user-reviews {
+	display: block;
+	max-width: 670px;
+	border-bottom: 2px solid #D3D3D3;
+}
+
+.stars{
+	margin-bottom: 12px;
+}
+
+
+/* End of Review Section */
+/*PopUp Section*/
 .popup-overlay,
 .popup-content {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .popup-overlay.active,
