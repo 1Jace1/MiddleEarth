@@ -59,11 +59,15 @@ namespace MiddleEarth.Controllers
 
 		#endregion
 
-		public PartialViewResult WriteReviewsToXml()
+		public ActionResult WriteReviewsToXml(string user, string text, int stars)
 		{
+			XMLReviewWriter writer = new XMLReviewWriter();
+			DateTime date = DateTime.Now;
+			writer.WriteToXml(Server.MapPath("~/Content/XmlFiles/Review.xml"), user, text, stars, date);
+			//ReviewsModel model = new ReviewsModel();
+			//model = LoadReviews();
 
-
-			return PartialView("Reviews");
+			return new RedirectResult("/Home/MiddleEarth");
 		}
 	}
 }

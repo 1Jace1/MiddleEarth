@@ -1,11 +1,11 @@
 ﻿@model MiddleEarth.Models.ReviewsModel
 
-<form class="review-form" action="@Url.Action("", "Review")">
+<form class="review-form" action="@Url.Action("WriteReviewsToXml", "Review")">
 	<div>
-		<span class="user">Name</span><input type="text" class="user-input" />
+		<span class="user">Name</span><input type="text" class="user-input" name="user"/>
 		<label for="text">Kommentar</label>
-		<textarea id="text" name="text" cols="100" rows="5"></textarea>
-		<span class="stars">Stars</span><input type="number" class="user-input" min="0" max="5" />
+		<textarea id="text" name="text" cols="100" rows="5" ></textarea>
+		<span class="stars">Stars</span><input type="number" class="star-input" min="0" max="5" name="stars"/>
 		<input type="submit" class="submit-button" />
 	</div>
 </form>
