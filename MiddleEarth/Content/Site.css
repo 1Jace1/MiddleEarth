@@ -64,10 +64,10 @@ textarea {
 .review-form{
 	display: block;
 	float: right;
+	margin-top: 32px;
 }
 
 .review-form div{
-	float: left;
 	display: grid;
 }
 
@@ -77,8 +77,9 @@ textarea {
 }
 
 .user-reviews {
-	display: block;
+	display: inline-block;
 	max-width: 670px;
+	width: 100%;
 	border-bottom: 2px solid #D3D3D3;
 }
 
@@ -127,6 +128,26 @@ button {
 
 /*End of PopUp Section*/
 
-@media only screen and (max-width: 1278){
+/* Responsive Section */
 
+@media only screen and (max-width: 1200px){
+
+	/* Responsive Section Reviews */
+
+	.review-form{
+		margin: 0 auto 32px auto;
+		float: none;
+		display: table;
+	}
+
+	.user-reviews {
+		display: inline-block;
+		max-width: none;
+		width: 100%;
+		border-bottom: 2px solid #D3D3D3;
+	}
+
+	/* End of Responsive Section Reviews */
 }
+
+/* End of Responsive Section */

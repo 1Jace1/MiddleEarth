@@ -9,40 +9,6 @@ namespace MiddleEarth.Data.Helper
 {
 	public class XMLReaderHelper
 	{
-		//TODO: List of T? & fix the bug
-
-		public List<T> XMLReader<T>(string path)
-		{
-			List<T> xmlNodes = new List<T>();
-			Dictionary<T, T> result = new Dictionary<T, T>();
-
-			if (!String.IsNullOrEmpty(path))
-			{
-				XmlDocument doc = new XmlDocument();
-				doc.Load(path);
-				
-				foreach (XmlNode item in doc.DocumentElement.ChildNodes)
-				{
-					XmlNode currentNode = doc.DocumentElement.SelectSingleNode("review");
-					XmlNodeList bla = currentNode.ChildNodes;
-					
-					foreach(XmlNode nodeItem in bla)
-					{
-						T convertNodeItemInnerText = (T)Convert.ChangeType(nodeItem.InnerText, typeof(T));
-						T convertNodeItemName = (T)Convert.ChangeType(nodeItem.Name, typeof(T));
-						result.Add(convertNodeItemName, convertNodeItemInnerText);
-					}
-
-					T text = (T)Convert.ChangeType(currentNode.InnerText, typeof(T));
-					xmlNodes.Add(text);
-				}
-
-				return xmlNodes.OrderBy(x => x).ToList();
-			}
-
-			return new List<T>();
-		}
-
 		public List<KeyValuePair<T,T>> XmlReviewReader<T>(string path, string rootNode)
 		{
 			if (!String.IsNullOrEmpty(path))

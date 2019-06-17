@@ -2,10 +2,10 @@
 
 <form class="review-form" action="@Url.Action("WriteReviewsToXml", "Review")">
 	<div>
-		<span class="user">Name</span><input type="text" class="user-input" name="user"/>
+		<span class="user">Name</span><input type="text" class="user-input" name="user" required/>
 		<label for="text">Kommentar</label>
-		<textarea id="text" name="text" cols="100" rows="5" ></textarea>
-		<span class="stars">Stars</span><input type="number" class="star-input" min="0" max="5" name="stars"/>
+		<textarea id="text" name="text" cols="100" rows="5" required></textarea>
+		<span class="stars">Stars</span><input type="number" class="star-input" min="0" max="5" name="stars" required/>
 		<input type="submit" class="submit-button" />
 	</div>
 </form>
@@ -21,6 +21,14 @@
 			<p class="review-date">@item.TimeAndDateOnPublish</p>
 
 			<div class="stars">
+				@if (item.StarRatingNumber == 0)
+				{
+					for (int i = 0; i < 5; i++)
+					{
+						<span class="fa fa-star"></span>
+					}
+				}
+
 				@for (int i = 1; i <= item.StarRatingNumber; i++)
 				{
 					<span class="fa fa-star checked"></span>
