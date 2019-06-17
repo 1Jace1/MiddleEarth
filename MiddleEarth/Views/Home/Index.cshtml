@@ -1,6 +1,8 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+	string path = Server.MapPath("~/Content/XsltFiles/Test.xslt");
 }
+@using MiddleEarth.Extension
 
 <div class="jumbotron">
     <h1>ASP.NET</h1>
@@ -29,3 +31,6 @@
         <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
+
+<h1>Test Section for XSLT</h1>
+@Html.RenderXml(ViewBag.Data as string, path)

@@ -12,13 +12,10 @@ namespace MiddleEarth.Controllers
 	{
 		public ActionResult Index()
 		{
-			MiddleEarthPlacesModel model = new MiddleEarthPlacesModel();
-			XMLReaderHelper helper = new XMLReaderHelper();
-			
-			//path und nodes vllt korrigieren in der methode vom reader
-			//model.Cities = helper.XMLReader("", new List<string>());
+			string xml = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/TestFile.xml"));
+			ViewBag.Data = xml;
 
-			return View(model);
+			return View();
 		}
 
 		public ActionResult MiddleEarth()
