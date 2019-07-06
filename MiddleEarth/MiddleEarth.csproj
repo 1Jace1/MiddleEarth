@@ -144,7 +144,11 @@
     <Content Include="Content\Bootstrap\bootstrap.css" />
     <Content Include="Content\Bootstrap\bootstrap.min.css" />
     <Content Include="Content\Css\PopUp.css" />
+    <Content Include="Content\Pictures\Auenland.jpg" />
+    <Content Include="Content\Pictures\Bruchtal.jpg" />
     <Content Include="Content\Pictures\LordOfTheRingMiddleEarth.jpg" />
+    <Content Include="Content\Pictures\Minas_Tirith.jpg" />
+    <Content Include="Content\Pictures\Mordor.jpg" />
     <Content Include="Content\XmlFiles\Review.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
