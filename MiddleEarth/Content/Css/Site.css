@@ -109,11 +109,10 @@ button {
 
 /* Responsive Section */
 
-@media only screen and (max-width: 1200px){
 
-	/* Responsive Section Reviews */
-
-	.review-form{
+@media only screen and (max-width: 1200px) {
+    /* Responsive Section Reviews */
+    .review-form{
 		margin: 0 auto 32px auto;
 		float: none;
 		display: table;

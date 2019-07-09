@@ -143,8 +143,15 @@
     <Content Include="Content\Bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\Bootstrap\bootstrap.css" />
     <Content Include="Content\Bootstrap\bootstrap.min.css" />
+    <Content Include="Content\Css\Image-Carousel.css" />
     <Content Include="Content\Css\PopUp.css" />
+    <Content Include="Content\Pictures\Auenland_1024x837.jpg" />
+    <Content Include="Content\Pictures\bruchtal.jpg" />
+    <Content Include="Content\Pictures\Isengard.jpg" />
     <Content Include="Content\Pictures\LordOfTheRingMiddleEarth.jpg" />
+    <Content Include="Content\Pictures\Minas_Tirith.jpg" />
+    <Content Include="Content\Pictures\Mordor.png" />
+    <Content Include="Content\Pictures\Rohan.jpg" />
     <Content Include="Content\XmlFiles\Review.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

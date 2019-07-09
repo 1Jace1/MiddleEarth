@@ -28,7 +28,8 @@ namespace MiddleEarth
 			bundles.Add(new StyleBundle("~/Content/css").Include(
 					  "~/Content/Bootstrap/bootstrap.css",
 					  "~/Content/Css/site.css",
-					  "~/Content/Css/PopUp.css"));
+					  "~/Content/Css/PopUp.css",
+                      "~/Content/Css/Image-Carousel.css"));
 		}
 	}
 }

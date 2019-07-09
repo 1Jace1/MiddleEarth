@@ -13,7 +13,8 @@
 				<th>Bronze</th>
 			</tr>
 			<xsl:for-each select="Country">
-				<tr style="text-align: center;">
+        <xsl:if test="@Name = 'Russia'">
+        <tr style="text-align: center;">
 					<td>
 						<xsl:value-of select="@Name"></xsl:value-of>
 					</td>
@@ -27,6 +28,7 @@
 						<xsl:value-of select="@Bronze"></xsl:value-of>
 					</td>
 				</tr>
+        </xsl:if>
 			</xsl:for-each>
 		</table>
 	</xsl:template>
