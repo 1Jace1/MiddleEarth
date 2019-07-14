@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Impressum>
+  <Authors>
+    <Author>Yannik</Author>
+    <Author>Fabius</Author>
+    <Author>Alex</Author>
+    <Author>Florian</Author>
+  </Authors>
+  <Location>
+    <Country>Germany</Country>
+    <City>Karlsruhe</City>
+  </Location>
+  <Contact>
+    <Telefon>09112/98329</Telefon>
+    <EMail>random@gmail.com</EMail>
+  </Contact>
+</Impressum>

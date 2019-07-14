@@ -148,6 +148,7 @@
     <Content Include="Content\Pictures\Auenland_1024x837.jpg" />
     <Content Include="Content\Pictures\bruchtal.jpg" />
     <Content Include="Content\Pictures\Isengard.jpg" />
+    <Content Include="Content\Pictures\Logo Webengineering.jpeg" />
     <Content Include="Content\Pictures\LordOfTheRingMiddleEarth.jpg" />
     <Content Include="Content\Pictures\Minas_Tirith.jpg" />
     <Content Include="Content\Pictures\Mordor.png" />
@@ -157,12 +158,18 @@
     <Content Include="Content\Pictures\LordOfTheRingMiddleEarth.jpg" />
     <Content Include="Content\Pictures\Minas_Tirith.jpg" />
     <Content Include="Content\Pictures\Mordor.jpg" />
+    <Content Include="Content\XmlFiles\Impressum.xml" />
     <Content Include="Content\XmlFiles\Review.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\XmlFiles\TestFile.xml" />
-    <Content Include="Content\XsltFiles\Test.xslt" />
+    <Content Include="Content\XsltFiles\Impressum.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\XsltFiles\Test.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
