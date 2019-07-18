@@ -33,8 +33,28 @@ textarea {
 	color: orange;
 }
 
-#map-wrapper{
-    position: relative;
+.top-section {
+	display: inline-block;
+	width: 100%;
+}
+
+.legends {
+	display: block;
+	float: left;
+	margin-top: 40px;
+}
+
+.legends span {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.legends span:first-of-type {
+	padding-left: 0;
+}
+
+#map-wrapper {
+	position: relative;
 }
 
 #map-wrapper img {

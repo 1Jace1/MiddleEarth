@@ -1,0 +1,44 @@
+﻿#countryLayer path {
+	fill: transparent;
+	stroke: transparent;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+	cursor: pointer;
+}
+
+ellipse {
+	cursor: pointer;
+}
+
+ellipse:hover {
+	fill: red !important;
+}
+
+#countryLayer path:hover {
+	fill: #fff;
+	fill-opacity: 0.25 ;
+}
+
+#regionLayer ellipse {
+	fill: orange;
+}
+
+#waterLayer ellipse {
+	fill: aqua;
+}
+
+#mountainLayer ellipse {
+	fill: yellow;
+}
+
+#cityLayer ellipse {
+	fill: black;
+}
+
+#forestLayer ellipse {
+	fill: green;
+}
+
+#fortressLayer ellipse {
+	fill: violet;
+}

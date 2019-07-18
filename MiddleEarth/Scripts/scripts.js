@@ -45,13 +45,12 @@ $(document).keydown(function (e) {
 });
 
 //End of PopUp Section
-
-//Resize function
-
-var timeOut = "";
-
-$(window).on('resize', function () {
-
+$(document).ready(function() {
+	$('.forest').change(function () {
+		if (this.checked) {
+			$('#forestLayer ellipse').hide();
+		} else {
+			$('#forestLayer ellipse').show();
+		}
+	});
 });
-
-/*End of JavaScript Section for the PopUp*/

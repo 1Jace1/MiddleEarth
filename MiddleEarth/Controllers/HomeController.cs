@@ -12,9 +12,9 @@ namespace MiddleEarth.Controllers
 	{
 		public ActionResult Index()
 		{
-			string xml = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/TestFile.xml"));
+			//string xml = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/TestFile.xml"));
             string xmlImp = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/Impressum.xml"));
-			ViewBag.Data = xml;
+			//ViewBag.Data = xml;
             ViewBag.DataImp = xmlImp;
 
 			return View();

@@ -29,7 +29,8 @@ namespace MiddleEarth
 					  "~/Content/Bootstrap/bootstrap.css",
 					  "~/Content/Css/site.css",
 					  "~/Content/Css/PopUp.css",
-                      "~/Content/Css/Image-Carousel.css"));
+                      "~/Content/Css/Image-Carousel.css",
+					  "~/Content/Css/map.css"));
 		}
 	}
 }
