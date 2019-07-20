@@ -7,7 +7,8 @@ namespace MiddleEarth.Models
 {
 	public class ShortInformationPopUpModel
 	{
-		public string City { get; set; }
+		public string Name { get; set; }
+		public string CssClass { get; set; }
 		public string People { get; set; }
 		public string ShortText { get; set; }
 	}

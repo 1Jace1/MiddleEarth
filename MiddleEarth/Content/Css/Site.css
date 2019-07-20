@@ -7,12 +7,36 @@
 .hometext {
     font: italic 20px Georgia, serif;
     line-height: 150%;
+	display: inline-block;
 }
 
+.hometext p{
+	display: inline-block;
+}
+
+h1.warning{
+	color: red;
+	font-weight: bold;
+}
+
+.hometext h2{
+	font-weight: bold;
+}
+
+.hometext ul li{
+	float: left;
+	max-width: 350px;
+	width: 100%;
+}
+
+.hometext ~ div{
+	clear: both;
+	margin-top: 32px;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 

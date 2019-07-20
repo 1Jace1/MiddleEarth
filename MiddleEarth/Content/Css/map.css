@@ -8,6 +8,7 @@
 
 ellipse {
 	cursor: pointer;
+	display: none;
 }
 
 ellipse:hover {
@@ -32,7 +33,7 @@ ellipse:hover {
 }
 
 #cityLayer ellipse {
-	fill: black;
+	fill: #fff;
 }
 
 #forestLayer ellipse {

@@ -161,6 +161,7 @@
     <Content Include="Content\Pictures\Mordor.jpg" />
     <Content Include="Content\Svg\map.svg" />
     <Content Include="Content\XmlFiles\Impressum.xml" />
+    <Content Include="Content\XmlFiles\LordOfTheRingsPlaces.xml" />
     <Content Include="Content\XmlFiles\Review.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

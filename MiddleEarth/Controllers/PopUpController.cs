@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MiddleEarth.Models;
+using MiddleEarth.Data.Helper;
 
 namespace MiddleEarth.Controllers
 {
@@ -13,7 +14,8 @@ namespace MiddleEarth.Controllers
 		public PartialViewResult ShortInformationPopUp()
 		{
 			ShortInformationPopUpModel model = new ShortInformationPopUpModel();
-			model.City = "Ghondor";
+			XMLReaderHelper helper = new XMLReaderHelper();
+			string xml = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/LordOfTheRingsPlaces.xml"));
 			return PartialView(model);
 		}
 	}

@@ -1,14 +1,14 @@
 ﻿$(document).ready(function () {
-    var map = $('#map-wrapper');
-    var point = $('<a href="#" class="map-point open" id="open-popup"></a>');
-    var x = 400;
-    var y = 500;
+	var map = $('#map-wrapper');
+	var point = $('<a href="#" class="map-point open" id="open-popup"></a>');
+	var x = 400;
+	var y = 500;
 
-    point.css({
-        left: x + "px",
-        top: y + "px"
-    });
-    point.appendTo(map);
+	point.css({
+		left: x + "px",
+		top: y + "px"
+	});
+	point.appendTo(map);
 });
 
 /*JavaScript Section for the PopUp*/
@@ -45,12 +45,25 @@ $(document).keydown(function (e) {
 });
 
 //End of PopUp Section
-$(document).ready(function() {
-	$('.forest').change(function () {
+
+$(document).ready(function () {
+	$('.show-all').change(function () {
 		if (this.checked) {
-			$('#forestLayer ellipse').hide();
+			$('ellipse').show();
 		} else {
-			$('#forestLayer ellipse').show();
+			$('ellipse').hide();
+		}
+	});
+
+	$('.legends input').change(function () {
+		var current = $(this).attr('class');
+		if (current !== 'show-all') {
+			var currentId = "#" + current + "Layer ellipse";
+			if (this.checked) {
+				$(currentId).show();
+			} else {
+				$(currentId).hide();
+			}
 		}
 	});
 });

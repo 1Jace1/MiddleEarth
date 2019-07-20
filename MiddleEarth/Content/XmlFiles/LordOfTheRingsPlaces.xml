@@ -1,0 +1,410 @@
+<places>
+
+ <gebiet name="Lindon">
+  	<info> 
+	       Westliche Reich der Elben
+	       Unterteilt in Forlindon (Norden) und Harlindon (Süden)
+               Lage: Zwischen Ered Luin und Belegaer im Nordwesten von Mittelerde
+	       Bewohner: Elben, Noldor
+               Landschaft: Schwach bewaldet, Küste, gelegentlich Wälder
+  	</info>
+  	<fluss>Golf von Lhûn</fluss>
+  	<stadt>
+   		<name>Mithlond</name>
+   		<info> 
+		       Elbische Hafenstadt
+	  	       Bewohner: Elben
+	  	       Sprache: Quenya, Sindarin
+   		</info>
+  	</stadt>
+	<gebirge name="Ered Luin" />
+  	<besonderheiten>
+   		Insel Tol Morwen: Gräber vonn Túrin Turambars, Nienors und Morwen Eledhwens
+  	</besonderheiten>
+ </gebiet>
+
+ <gebiet name="Forodwaith">
+  	<info> 
+	       Lage: Nördlich der Ered Mithrin
+	       Landschaft: Eis und Kälte
+	       Bewohner: Volk der Forodwaith
+  	</info>
+  	<besonderheiten>Eisbucht von Forochel</besonderheiten>
+ </gebiet>
+
+ <gebiet name="Eriador">
+  	<info>
+               Lage: Vom Nebelgebirge (Osten) bis zu den Ered Luin (Westen)
+               	     Gwathló, Glanduin (Süden) und Forodwaith (Norden)
+   	       Landschaft: Flüsse, Gebirge, Wiesen und Felder
+   	       Bewohner: Menschen, Hobbits, Elben
+   	       Sprache: Westron, Quenya, Sindarin
+   	       Regionen: Arnor, Arthedain, Auenland, Breeland, Bruchtal, Cardolan, Eregion, Rhudaur
+  	</info>	
+	<fluss name="Brandywein">
+		Fließt durch Eriador und kommt aus dem Nenuial-See.
+  	</fluss>
+  	<stadt>
+   		<name>Ost-in-Edhil</name>
+   		<info> 
+		       Elbenstadt (Hauptstadt)
+	  	       Bewohner: Elben, Menschen
+	               Sprache: Westron, Quenya, Sindarin
+   		</info>
+	</stadt>
+   	<region name="Arnor">
+		<info>
+		       Landschaft: Hügelketten, Ebenen, Wälder, Wiesen, Berge, Flüsse, Felder, Tundra
+		       Bewohner: Dúnedain, Hobbits, verteilt Bergmenschen
+		       Sprache: Adûnaïsch, später Westron
+		       Alte Hauptstadt war Annúminas. Nach dem Zerfall wurde Fornost die neue Hauptstadt.
+    		</info>
+   	</region>
+
+   	<region name="Arthedain">
+    		<info>
+    		       Landschaft: Hügelketten, Ebenen, Wälder, Wiesen, Felder, Flüsse
+		       Bewohner: Dúnedain
+		       Sprache: Adûnaïsch, später Westron
+		       Hauptstadt ist Fornost.
+    		</info>
+    		<besonderheiten>
+			Aussichtspunkt Amon Sûl, auch Wetterspitze genannt.
+		        Guter Blick auf Oststraße Richtung Rhudaur.
+			Lage: in den einsamen Landen nahe der verlassenen Herberge.
+		</besonderheiten>
+   	</region>
+
+   	<region name="Auenland">
+    		<info>
+		       Heimat der Hobbits.
+		       Neben Breeland und Gondor das am dichtesten besiedelte Gebiet von Mittelerde.
+	  	       Es gibt reichlich viele intakte Straßen, Postämter und Tavernen.
+		       Landschaft: Wiesen, Hügel, Wälder
+		       Bewohner: Hobbits, Dúnedain
+		       Sprache: Adûnaïsch, später Westron
+		</info>
+    		<fluss name="Wässer">
+	       		Neben dem Brandywein der größte Fluss im Auenland.
+		</fluss>
+    		<fluss name="Brandywein">
+	       		Bildet teilweise die Grenze des Auenlandes.
+    		</fluss> 
+    		<stadt>
+     			<name>Hobbingen</name>
+     			<info> 
+			       Lage: Dorf im Westviertel vom Auenland am Ufer vom Wässer.
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Wasserau</name>
+     			<info> 
+			       Lage: Liegt im östlichen Teil des Westviertels und von Hobbingen.
+			       Nördlich liegt der Wasserauer See.
+			       Bewohner: Hobbits
+			       Sehenswürdigkeit: Gasthaus Grüner Drachen
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Froschmoorstetten</name>
+     			<info>
+			       Lage: Dorf im Ostviertel des Auenlandes, welches an der Oststraße liegt.
+			       Sehenswürdigkeiten: Das Gasthaus Schwimmender Balken
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Stock</name>
+     			<info>
+			       Lage: Im Norden des Bruchs und südlich der Brandyweinbrücke.
+	      			     Der Stockbach mündet hier in den Brandywein.
+			       Sehenswürdigkeiten: Das Wirtshaus Golener Barsch.
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Krickloch</name>
+     			<info>
+			       Lage: Liegt im Bockland, nördlich von Bockenburg.
+			       Sehenswürdigkeiten: Frodos Haus, welches er sich als angeblichen Ruheort gekauft hat.
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Tuckbergen</name>
+     			<info>
+			       Lage: Größte und älteste Ansiedlung im Westviertel am Südhang der Grünberge
+			       Bewohner: Hobbits
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Michelbinge</name>
+     			<info>
+			       Hauptstadt vom Auenland
+			       Lage: Liegt im Westviertel auf dem Kamm der Weißen Höhen.
+			       Sehenswürdigkeiten: Stadthöhle und das Mathom-Haus
+     			</info>
+    		</stadt>
+			<gebirge name="Gebrige von Evendim"/>
+			<gebirge name="Nördliche Höhen"/>
+			<gebirge name="Mount Gram"/>
+			<gebirge name="Wettergebirge"/>
+			<gebirge name="Südliche Höhen"/>
+			<gebirge name="Turm Gebirge"/>
+			<gebirge name="Nebelgebirge" />
+			<wald name="Eryn Vorn" />
+			<wald name="Trollshaws" />
+   	</region>
+
+   	<region name="Breeland">
+		<info>
+		       Lage: Liegt an der Kreuzung der Oststraße und der alten Nordstraße
+		       Landschaft: Wald, Wiesen, Hügel 
+		       Bewohner: Menschen und Hobbits
+		       Sprache: Westron
+		</info>
+    		<stadt>
+     			<name>Bree</name>
+     			<info>
+			       Hauptstadt im Breeland. Nordöstlich liegt der Chetwald.
+			       Bewohner: Menschen, Hobbits, Dúnedain
+			       Sehenswürdigkeit: Zum Tänzelnden Pony
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Archet</name>
+     			<info>
+			       Ruhiges Dorf nordöstlich vom Handelszentrum Bree.
+			       Bewohner: Menschen, Hobbits
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Stadel</name>
+     			<info>
+			       Siedlung die nicht weit vom östlichen Tor Brees liegt.
+			       Bewohner: Hobbits
+     			</info>
+    		</stadt>
+    		<stadt>
+     			<name>Schlucht</name>
+     			<info>
+			       Abgelegendste der Vier Dörfer.
+			       Bewohner: Menschen, Hobbits
+			       Besonderheit: Einzige Herberge außerhalb von Bree
+     			</info>
+    		</stadt>
+   	</region>
+
+   	<region name="Bruchtal">
+		<info>
+		       Lage: In einr verborgenen Schlucht westlich vom Nebelgebirge zwischen dem Fluss Bruinen
+			     und dem Zufluss von Bruinen.
+		       Landschaft: Bäche, Gebirge, Wiesen, Felsklüfte
+		       Bewohner: Elben, Halbelben
+		       Sprache: Quenya, Sindarin, Westron
+   		</info>
+	</region>
+
+   	<region name="Cardolan">
+		<info>
+		       Lage: Königreich im Süden von Eriador.
+		       Landschaft: Wälder, Ebenen
+		       Bewohner: Dúnedain
+		       Sprache: Adûnaïsch, später Westron
+		       Sehenswürdigkeiten: Hügelgräberhöhen
+		</info>
+   	</region>
+
+   	<region name="Eregion">
+		<info>
+		       Lage: Im Osten von Eriador. Südgrenze bildet der Fluss Glanduin.
+			     Westgrenze ist der Fluss Weissquell. Nordgrenze ist der Bruinen.
+		       Landschaft: Große Wälder
+		       Bewohner: Elben, Noldor
+		       Sprache: Quenya, Sindarin
+		</info>
+   	</region>
+
+   	<region name="Rhudaur">
+		<info>
+		       Lage: Im osten Eriadors. Im Südwesten grenzte Cardolan und im Westen Arthedain an.
+		       Landschaft: Hügel, Wälder, Flüsse
+		       Bewohner: Rhudaurrim, teilweise Dúnedain
+		       Sprache: Adûnaïsch, später Westron
+   		</info>
+	</region>
+ </gebiet>
+
+ <gebiet name="Rhovanion">
+   	<info>
+	       Erebor ist die Hauptstadt, nachdem Moria verwüstet wurde.
+	       Lage: Östlich des Nebelgebirges und im Osten grenzt es an Rhûn.
+	       Bewohner: Menschen, Elben, Zwerge
+	       Sprache: Khuzdul, Quenya, Sindarin
+   	</info>
+	<fluss name="Anduin"/>
+   	<wald name="Düsterwald">
+		Es gibt Spinnen, Warge und etweiige andere Kreaturen.
+   	</wald>
+	<wald name="Fangorn Wald">
+		Ein tiefer dunkler Wald süd-östlich des Nebelgebirges, bewohnt von den Ents.
+	</wald>
+	<wald name="Lorien" />
+   	<gebirge name="Eisenberge"/>
+   	<gebirge name="Erebor">
+		Lage: Östlich des Nebelgebirges
+		Sehenswürdigkeiten: Drachenschatz
+		Bewohner: Zwerge
+	</gebirge>
+ </gebiet>
+
+ <gebiet name="Gondor">
+	  <info>
+		 Minas Trith ist die Hauptstadt
+		 Lage: Im Südwesten von Mittelerde. Im Norden grenzt das Weise Gebirge und Rohan an,
+	      	       im Osten an Mordor, im Süden an Nah-Harad und im Westen an Belegaer.
+		 Landschaft: Gebirge, Wälder, Flüsse, Ebenen
+		 Bewohner: Menschen
+		 Sprache: Westron, Sindarin, Quenya
+  	</info>
+  	<stadt>
+   		<name>Minas Trith</name>
+   		<info>
+			Lage: Liegt auf dem 200 Meter hohen Berg der Wacht.
+			Bewohner: Menschen
+			Sehenswürdigkeiten: Weißer Baum
+   		</info>
+  	</stadt>
+  	<stadt>
+  		<name>Osgiliath</name>
+   		<info>
+			Alte Hauptstadt von Gondor.
+			Lage: Liegt auf beiden Seiten von Anduin und zwischen Minas Anor und Minas Ithil.
+			Bewohner: Menschen
+			Sehenswürdigkeiten: Kuppel der Sterne mit Thronsaal
+   		</info>
+   		<fluss name="Anduin"/>
+  	</stadt>
+	<gebirge name="Weiße Gebirge"/>
+ </gebiet>
+
+ <gebiet name="Enedwaith">
+	<info>
+     	       Ist ein weites und flaches Gebiet zwischen dem Gwathló und den Isen in Mittelerde.
+  	</info>
+	<fluss name="Gwathló"/>
+  	<fluss name="Isen"/>
+ </gebiet>
+
+ <gebiet name="Haradwaith">
+	<info>
+	       Lage: Südlich von Mordor und im Westen angrenzend an Harond und Umbar.
+	             Im Nordwesten grenzen Süd-Ithilien und im Nordosten Khand sowie im Südosten das Ostmeer an.
+	       Landschaft: wüsten, Einöden, Steppen, Wald, Gebirge
+	       Bewohner: Haradrim
+	       Sprache: Menschensprache
+	</info>
+  	<fluss name="Poros"/>
+	<gebirge name="Ered Mithrin"/>
+  	<gebirge name="Ephel Dúath"/>
+ </gebiet>
+
+ <gebiet name="Mordor">
+  	<info>	
+	       Es ist das Reich Saurons und die Hauptstadt ist die Festung Barad-dûr.
+	       Lage: Im Südosten von Mittelerde.
+	       Landschaft: Steinig, gebirgig, ebenen, Flüsse
+	       Bewohner: Orks, Nazgûl, Menschen
+	       Sprache: Orkisch, schwarze Sprache
+	       Sehenswürdigkeiten: Barad-dûr, Cirith Ungold, Morannon, Durthang
+  	</info>
+  	<festung name="Barad-dûr">
+		Festung von Sauron
+		Bewohner: Orks, Diener Saurons, Saurons Mund
+		Sehenswürdigkeiten: Lidloses Auge auf der Spitze (Auge von Sauron)
+  	</festung>
+  	<pass name="Cirith Ungol"/>
+  	<festung name="Durthang"/>
+  	<gebirge name="Schicksalsberg"/>
+  	<gebirge name="Ered Lithui (Aschengebirge)"/>
+  	<meer name="Númen-Meer"/>
+  	<gebirge name="Ephel Dúath"/>
+  	<fluss name="Nargil"/>
+	<festung name="Minas Morgul">
+		Minas Morgul dient als Sitz der Nazgul.
+	</festung>
+ </gebiet>
+
+ <gebiet name="Rhûn">
+  	<info>
+	       Lage: Im Osten von Mittelerde
+	       Landschaft: Flüsse, Berge, Wiesen
+	       Bewohner: Menschen
+	       Sehenswürdigkeiten: Meer von Rhûn
+  	</info>
+  	<fluss name="Camen"/>
+  	<fluss name="Celduin"/>
+	<gebirge  name="Rote Gebirge (Orocarni)" />
+ </gebiet>
+
+ <gebiet name="Númenor">
+  	<info>
+	       Hauptstadt ist Armenelos.
+	       Lage: Im Belegaer-Ozean
+	       Landschaft: Gebirge, Wälder, Flüsse, Ebenen
+	       Bewohner: Menschen
+	       Sprache: Adûnaïsch, Westron, Sindarin, Quenya
+	       Sehenswürdigkeiten: Armenelos, Rommená, Andúnië 
+  	</info>
+  	<stadt>
+   		<name>Armenelos</name>
+   		<info>
+			Es befindet sich dort der weiße Baum Nimloth, der Königspalast
+			und der Tempel von Sauron für Melkor.
+   		</info>
+	</stadt>
+ </gebiet>
+
+ <gebiet name="Rohan">
+  	<info>
+		Die Hauptstadt ist Edoras.
+		Lage: Im Westen von Mittelerde
+		Landschaft: Gebirge, Ebenen, Wälder, Flüsse
+		Bewohner: Menschen
+		Sprache: Sprache der Rohirrim, Westron
+		Sehenswürdigkeiten: Edoras, Helms Klamm
+  	</info>
+  	<stadt>
+   		<name>Edoras</name>
+   		<info>
+			Bewohner: Menschen, Rohirrim
+			Sprache: Rohirrisch, Westron
+			Sehenswürdigkeiten: Goldene Halle Meduseld
+   		</info>
+  	</stadt>
+  	<festung name="Helms Klamm">
+		Bewohner: Menschen
+		Sehenwürdigkeiten: Helms Deich
+  	</festung>
+	<festung name="Isengard">
+		Bewohner: Saruman der Weiße
+	</festung>
+ </gebiet>
+
+ <gebiet name="Arnor">
+  	<info>
+	       Lage: Im Nordwesten von Mittelerde
+	       Landschaft: Hügelketten, Ebenen, Wälder, Wiesen, Berge, Flüsse, Felder, Tundra
+	       Bewohner: Dúnedain, Hobbits, Bergmenschen
+	       Sehenwürdigkeiten: Amon Sûl, Fornost, Annúminas
+  	</info>
+  	<fluss name="Bruinen"/>
+ </gebiet>
+
+ <gebiet name="Khand">
+  	<info>
+		Lage: Im Südosten von Mittelerde
+		Landschaft: Wüsten, Einöden
+		Bewohner: Variags Menschen
+  	</info>
+  	<gebirge name="Gelbes Gebirge"/>
+ </gebiet>
+
+</places>
