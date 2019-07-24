@@ -1,8 +1,20 @@
 ﻿@{ 
 	string xsltRegionPath = Server.MapPath("~/Content/XsltFiles/regions.xslt");
+	string xsltCitiesPath = Server.MapPath("~/Content/XsltFiles/cities.xslt");
+	string xsltForrestPath = Server.MapPath("~/Content/XsltFiles/forrest.xslt");
+	string xsltMountainsPath = Server.MapPath("~/Content/XsltFiles/mountain.xslt");
+	string xsltFortressesPath = Server.MapPath("~/Content/XsltFiles/fortress.xslt");
+	string xsltSeasPath = Server.MapPath("~/Content/XsltFiles/seas.xslt");
+	string xsltTerritoriesPath = Server.MapPath("~/Content/XsltFiles/territories.xslt");
 }
 @using MiddleEarth.Extension
 
 <div class="testclass">
 	@Html.RenderXml(ViewBag.RegionData as string, xsltRegionPath)
+	@Html.RenderXml(ViewBag.CitiesData as string, xsltCitiesPath)
+	@Html.RenderXml(ViewBag.ForrestData as string, xsltForrestPath)
+	@Html.RenderXml(ViewBag.MountainsData as string, xsltMountainsPath)
+	@Html.RenderXml(ViewBag.FortressesData as string, xsltFortressesPath)
+	@Html.RenderXml(ViewBag.SeasData as string, xsltSeasPath)
+	@Html.RenderXml(ViewBag.Territories as string, xsltTerritoriesPath)
 </div>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<fortresses>
+    <fortress>
+        <name>Barad-dûr</name>
+        <info>Festung von Sauron</info>
+        <pop>Orks, Diener Saurons, Saurons Mund</pop>
+        <sights>Lidloses Auge auf der Spitze (Auge von Sauron)</sights>
+    </fortress>
+    <fortress>
+        <name>Durthang</name>
+        <info>Festung von Sauron</info>
+        <pop>Orks</pop>
+    </fortress>
+    <fortress>
+        <name>Minas Morgul</name>
+        <info>Minas Morgul dient als Sitz der Nazgul.</info>
+        <pop>Orks, Diener Saurons, Nazgul</pop>
+        <sights>Fellbestien</sights>
+    </fortress>
+    <fortress>
+        <name>Helms Klamm</name>
+        <info>Hier Rettetete Gandalf das Volk der Rohan im Kampf gegen Saruman.</info>
+        <pop>Menschen</pop>
+        <sights>Helms Deich</sights>
+    </fortress>
+    <fortress>
+        <name>Isengard</name>
+        <info>Reich von Saruman dem Weißen</info>
+        <pop>Saruman der Weiße, Orks, Urukai</pop>
+        <sights>Sarumans Turm</sights>
+    </fortress>
+	<fortress>
+		<name>Dol Guldur</name>
+		<info>Nachdem Sauron am Ende des Zweiten Zeitalters besiegt worden war, kam sein Geist um das Jahr 1050 zurück und verblieb im Turm Dol Guldur ‚Hügel der Magie‘ auf dem Berge Amon Lanc im großen Grünwald. Zu jener Zeit fiel ein Schatten auf den großen Grünwald, und man nannte ihn von da an Düsterwald.</info>
+		<pop>Orks, riesen Spinnen, Wargs, Nazgul</pop>
+		<sights>Grab von Thráin II</sights>
+	</fortress>
+</fortresses>

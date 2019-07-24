@@ -162,20 +162,50 @@
     <Content Include="Content\Pictures\LordOfTheRingMiddleEarth.jpg" />
     <Content Include="Content\Pictures\Minas_Tirith.jpg" />
     <Content Include="Content\Svg\map.svg" />
-    <Content Include="Content\XmlFiles\file.xml" />
-    <Content Include="Content\XmlFiles\Impressum.xml" />
+    <Content Include="Content\XmlFiles\cities.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\XmlFiles\forrest.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\XmlFiles\fortress.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\XmlFiles\Impressum.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\XmlFiles\LordOfTheRingsPlaces.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Content\XmlFiles\regions.xml" />
+    <Content Include="Content\XmlFiles\mountains.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\XmlFiles\regions.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\XmlFiles\Review.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\XmlFiles\search.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\XmlFiles\seas.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\XmlFiles\territories.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\XsltFiles\cities.xslt" />
+    <Content Include="Content\XsltFiles\forrest.xslt" />
+    <Content Include="Content\XsltFiles\fortress.xslt" />
     <Content Include="Content\XsltFiles\Impressum.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\XsltFiles\mountain.xslt" />
     <Content Include="Content\XsltFiles\regions.xslt" />
+    <Content Include="Content\XsltFiles\seas.xslt" />
+    <Content Include="Content\XsltFiles\territories.xslt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -195,6 +225,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\scripts.js" />
+    <Content Include="Scripts\search.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

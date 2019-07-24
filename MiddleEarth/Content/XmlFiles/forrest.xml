@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<forrests>
+    <forrest>
+        <name>Düsterwald</name>
+        <info>Es gibt Spinnen, Warge und etweiige andere Kreaturen.Auch leben hier die Düsterwaldelben</info>
+    </forrest>
+    <forrest>
+        <name>Fangorn Wald</name>
+        <info>Ein tiefer dunkler Wald süd-östlich des Nebelgebirges, bewohnt von den Ents.</info>
+    </forrest>
+    <forrest>
+        <name>Lorien</name>
+        <info>Bewont von Elben unter dem Schutz der Herrin Galadriel</info>
+    </forrest>
+	<forrest>
+		<name>Eryn Vorn</name>
+		<info>Eryn Vorn, der dunkle Wald ist einer der wenigen Wälder der völlig unangetastet und meist auch unbewohnt ist. Bis auf wenige Waldbewohner, welche die überbleibsel der Gwathuirim (bestehend aus Menschen und Edain) sind.</info>
+	</forrest>
+	<forrest>
+		<name>Trollhöhen</name>
+		<info>
+			Die Trollhöhen sind ein bewaldetes Hügelland nordwestlich von Bruchtal.
+			Am südlichen Rand der Trollhöhen zieht sich die Große Oststraße hin. Durch diese Route wurden viele Reisende von Trollen überfallen
+			und terrorisiert. Die Trolle ziehen sich in dem Wald zurück sobald der Tag anbricht, sodass Sie nicht zu Stein werden.
+		</info>
+	</forrest>
+</forrests>

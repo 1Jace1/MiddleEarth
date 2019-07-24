@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<mountains>
+    <mountain>
+        <name>Ered Luin</name>
+        <sights>Zwergenschmieden</sights>
+        <pop>Zwerge</pop>
+    </mountain>
+    <mountain>
+        <name>Eisenberge</name>
+        <sights>Eisenbergwerke</sights>
+        <pop>Zwerge</pop>
+    </mountain>
+    <mountain>
+        <name>Erebor</name>
+        <sights>Drachenschatz </sights>
+        <pop>Drache</pop>
+    </mountain>
+    <mountain>
+        <name>Weiße Gebirge</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Ered Mithrin</name>
+        <sights>Werkstädte</sights>
+        <pop>Zwerge,Drachen</pop>
+    </mountain>
+    <mountain>
+        <name>Ephel Dúath</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Schicksalsberg</name>
+        <sights>Die Ringschmiede</sights>
+        <pop>Orks</pop>
+    </mountain>
+    <mountain>
+        <name>Ered Lithui</name>
+        <sights></sights>
+        <pop>Orks</pop>
+    </mountain>
+    <mountain>
+        <name>Rote Gebirge</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Gelbes Gebirge</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Gebrige von Evendim</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Nördliche Höhen</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Mount Gram</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Wettergebirge</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Südliche Höhen</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Turm Gebirge</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+    <mountain>
+        <name>Nebelgebirge</name>
+        <sights></sights>
+        <pop></pop>
+    </mountain>
+</mountains>
