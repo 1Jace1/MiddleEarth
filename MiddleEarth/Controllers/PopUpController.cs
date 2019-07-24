@@ -10,13 +10,14 @@ namespace MiddleEarth.Controllers
 {
 	public class PopUpController : Controller
 	{
+
 		[ChildActionOnly]
 		public PartialViewResult ShortInformationPopUp()
 		{
-			ShortInformationPopUpModel model = new ShortInformationPopUpModel();
-			XMLReaderHelper helper = new XMLReaderHelper();
-			string xml = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/LordOfTheRingsPlaces.xml"));
-			return PartialView(model);
+			string xml = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/regions.xml"));
+			ViewBag.RegionData = xml;
+
+			return PartialView();
 		}
 	}
 }

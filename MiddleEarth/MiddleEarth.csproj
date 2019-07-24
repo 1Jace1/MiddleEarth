@@ -133,6 +133,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CountireInformationModel.cs" />
     <Compile Include="Models\MiddleEarthPlacesModel.cs" />
     <Compile Include="Models\ReviewModel.cs" />
     <Compile Include="Models\ShortInformationPopUpModel.cs" />
@@ -161,8 +162,12 @@
     <Content Include="Content\Pictures\Minas_Tirith.jpg" />
     <Content Include="Content\Pictures\Mordor.jpg" />
     <Content Include="Content\Svg\map.svg" />
+    <Content Include="Content\XmlFiles\file.xml" />
     <Content Include="Content\XmlFiles\Impressum.xml" />
-    <Content Include="Content\XmlFiles\LordOfTheRingsPlaces.xml" />
+    <Content Include="Content\XmlFiles\LordOfTheRingsPlaces.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\XmlFiles\regions.xml" />
     <Content Include="Content\XmlFiles\Review.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -170,6 +175,7 @@
     <Content Include="Content\XsltFiles\Impressum.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\XsltFiles\regions.xslt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

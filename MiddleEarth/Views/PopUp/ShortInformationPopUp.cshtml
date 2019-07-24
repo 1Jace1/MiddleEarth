@@ -1,11 +1,8 @@
-﻿@model MiddleEarth.Models.ShortInformationPopUpModel
+﻿@{ 
+	string xsltRegionPath = Server.MapPath("~/Content/XsltFiles/regions.xslt");
+}
+@using MiddleEarth.Extension
 
-<!--Creates the popup body-->
-<div id="popup" class="modal">
-	<!--Creates the popup content-->
-	<div class="modal-content">
-		<!--popup's close button-->
-		<span class="close">&times;</span>
-		<p>Some text in the Modal..</p>
-	</div>
+<div class="testclass">
+	@Html.RenderXml(ViewBag.RegionData as string, xsltRegionPath)
 </div>

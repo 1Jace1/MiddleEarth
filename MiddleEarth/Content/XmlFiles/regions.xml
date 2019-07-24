@@ -1,0 +1,200 @@
+﻿<?xml version="1.0"?>
+<regions>
+	<region>
+		<name>Lindon</name>
+		<info>Westliches Reich der Elben unnterteilt in Forlindon (Norden) und Harlindon (Süden).Es liegt zwische Ered Luin und Belegaer,im Nordwesten von Mittelerde</info>
+		<pop>Elben, Noldor</pop>
+		<landscape>Schwach bewaldet, Küste, gelegentlich Wälder</landscape>
+		<river>Golf von Lhûn</river>
+		<mountain>Ered Luin</mountain>
+		<city>Mithlond</city>
+		<specials>Die Insel Tol Morwen mit den Gräber von Túrin Turambars, Nienors und Morwen Eledhwens</specials>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Forodwaith</name>
+		<info>Es liegt nördlich der Ered Mithrin</info>
+		<pop>Volk der Forodwaith</pop>
+		<landscape>Eis/Kälte,Tundra</landscape>
+		<river></river>
+		<mountain></mountain>
+		<city></city>
+		<specials>Eisbucht von Forochel</specials>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Eriador</name>
+		<info>Es erstreckt sich vom Nebelgebirge (Osten) bis zu den Ered Luin (Westen) Gwathló, Glanduin (Süden) und Forodwaith (Norden)</info>
+		<pop>Menschen, Hobbits, Elben</pop>
+		<landscape>Flüsse, Gebirge, Wiesen und Felder</landscape>
+		<river>Brandywein</river>
+		<mountain></mountain>
+		<city>Ost-in-Edhil</city>
+		<specials></specials>
+		<territory>Arnor</territory>
+		<territory>Arthedain</territory>
+		<territory>Auenland</territory>
+		<territory>Breeland</territory>
+		<territory>Bruchtal</territory>
+		<territory>Cardolan</territory>
+		<territory>Eregion</territory>
+		<territory>Rhudaur</territory>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Rhovanion</name>
+		<info>In Rhovanion liegt Erebor die Hauptstadt der Zwerge, nachdem Moria verwüstet wurde.Es liegt  Östlich des Nebelgebirges und im Osten grenzt es an Rhûn.</info>
+		<pop>Menschen, Elben, Zwerge</pop>
+		<landscape></landscape>
+		<river>Anduin</river>
+		<mountain>Eisenberge</mountain>
+		<mountain>Erebor</mountain>
+		<city></city>
+		<specials></specials>
+		<forrest>Düsterwald</forrest>
+		<forrest>Fangorn Wald</forrest>
+		<forrest>Lorien</forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Gondor</name>
+		<info>Minas Trith ist die Hauptstadt. Es liegt im Südwesten von Mittelerde. Im Norden grenzt es an das Weise Gebirge und Rohan , im Osten an Mordor, im Süden an Nah-Harad und im Westen an Belegaer.</info>
+		<pop>Menschen</pop>
+		<landscape>Gebirge, Wälder, Flüsse, Ebenen</landscape>
+		<river>Anduin</river>
+
+		<mountain>Weiße Gebirge</mountain>
+		<city>Minas Trith</city>
+		<city>Osgiliath</city>
+		<specials></specials>
+		<forrest></forrest>
+		<fortress></fortress>
+
+	</region>
+
+	<region>
+		<name>Enedwaith</name>
+		<info>Ist ein weites und flaches Gebiet zwischen dem Gwathló und den Isen in Mittelerde.</info>
+		<pop>Menschen</pop>
+		<landscape>Gebirge, Wälder, Flüsse, Ebenen</landscape>
+		<river>Gwathló</river>
+		<river>Isen</river>
+		<mountain></mountain>
+		<city></city>
+		<specials></specials>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Haradwaith</name>
+		<info>Südlich von Mordor und im Westen angrenzend an Harond und Umbar. Im Nordwesten grenzen Süd-Ithilien und im Nordosten Khand sowie im Südosten das Ostmeer an.</info>
+		<pop>Haradrim (Menschen)</pop>
+		<landscape>wüsten, Einöden, Steppen, Wald, Gebirge</landscape>
+		<river>Poros</river>
+		<river>Isen</river>
+		<mountain>Ered Mithrin</mountain>
+		<mountain>Ephel Dúath</mountain>
+		<city></city>
+		<specials></specials>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Mordor</name>
+		<info>Es ist das Reich Saurons und die Hauptstadt ist die Festung Barad-dûr.Es liegt im Südosten von Mittelerde. </info>
+		<pop>Orks, Nazgûl, Menschen</pop>
+		<landscape>Steinig, gebirgig, ebenen, Flüsse </landscape>
+		<river>Nargil</river>
+
+		<mountain>Schicksalsberg</mountain>
+		<mountain>Ered Lithui (Aschengebirge)</mountain>
+		<mountain>Ephel Dúath</mountain>
+		<mountain>Minas Morgul</mountain>
+
+		<city></city>
+		<specials>Barad-dûr, Cirith Ungold, Morannon, Durthang</specials>
+		<forrest></forrest>
+		<fortress>Barad-dûr</fortress>
+		<fortress>Cirith Ungol</fortress>
+		<fortress>Durthang</fortress>
+		<fortress>Minas Morgul</fortress>
+	</region>
+
+	<region>
+		<name>Rhûn</name>
+		<info> Es liegt im Osten von Mittelerde</info>
+		<pop>Menschen</pop>
+		<landscape>Flüsse, Berge, Wiesen</landscape>
+		<river>Camen</river>
+		<river>Celduin</river>
+		<mountain>Rote Gebirge (Orocarni)</mountain>
+		<city></city>
+		<specials>Meer von Rhûn</specials>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Númenor</name>
+		<info> Die Hauptstadt ist Armenelos.Es liegt im Belegaer-Ozean</info>
+		<pop>Menschen</pop>
+		<landscape>Gebirge, Wälder, Flüsse, Ebenen</landscape>
+		<river></river>
+		<mountain></mountain>
+		<city>Armenelos</city>
+		<specials>Armenelos, Rommená, Andúnië</specials>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Rohan</name>
+		<info> Die Hauptstadt ist Edoras. Es im Westen von Mittelerde.</info>
+		<pop>Menschen</pop>
+		<landscape>Gebirge, Ebenen, Wälder, Flüsse</landscape>
+		<river></river>
+		<mountain></mountain>
+		<city>Edoras</city>
+		<specials>Edoras, Helms Klamm</specials>
+		<forrest></forrest>
+		<fortress>Helms Klamm</fortress>
+		<fortress>Isengard</fortress>
+	</region>
+
+	<region>
+		<name>Arnor</name>
+		<info>Es liegt im Nordwesten von Mittelerde</info>
+		<pop>Dúnedain(Menschen), Hobbits, Bergmenschen</pop>
+		<landscape>Hügelketten, Ebenen, Wälder, Wiesen, Berge, Flüsse, Felder, Tundra</landscape>
+		<river>Bruinen</river>
+		<mountain></mountain>
+		<city></city>
+		<specials>Amon Sûl, Fornost, Annúminas</specials>
+		<forrest></forrest>
+		<fortress></fortress>
+		<fortress></fortress>
+	</region>
+
+	<region>
+		<name>Khand</name>
+		<info> Es liegt im Südosten von Mittelerde</info>
+		<pop>Variags Menschen</pop>
+		<landscape>Wüsten, Einöden</landscape>
+		<river></river>
+		<mountain>Gelbes Gebirge</mountain>
+		<city></city>
+		<specials></specials>
+		<forrest></forrest>
+		<fortress></fortress>
+	</region>
+
+</regions>
