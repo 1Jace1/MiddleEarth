@@ -12,11 +12,6 @@ namespace MiddleEarth.Controllers
 	{
 		public ActionResult Index()
 		{
-			//string xml = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/TestFile.xml"));
-            string xmlImp = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/Impressum.xml"));
-			//ViewBag.Data = xml;
-            ViewBag.DataImp = xmlImp;
-
 			return View();
 		}
 
@@ -24,5 +19,13 @@ namespace MiddleEarth.Controllers
 		{
 			return View();
 		}
+
+        public ActionResult Impressum()
+        {
+            string xmlImp = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/Impressum.xml"));
+            ViewBag.DataImp = xmlImp;
+
+            return View();
+        }
 	}
 }

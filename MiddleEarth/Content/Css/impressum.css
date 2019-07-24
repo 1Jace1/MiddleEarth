@@ -1,0 +1,65 @@
+﻿body {
+}
+h1 {
+    text-align: center;
+}
+h1, h2, h3 {
+    color:green;
+}
+.normal {
+    font-size: 2rem;
+}
+.liability{
+    font-size: 1.75rem;
+}
+.inputmail {
+    max-width: 1000px;
+    border-radius: 0.25rem;
+}
+input[type=text] {
+    padding: 5px;
+    border: solid #ccc;
+    border-radius: 0.25rem;
+}
+    input[type=text]:focus {
+        border-color: #f2eecb;
+    }
+textarea {
+    padding: 5px;
+    border: solid #ccc;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 0.25rem;
+    resize: none;
+
+}
+    textarea:focus {
+        border-color: #f2eecb;
+    }
+.close-button {
+    float: right;
+    line-height: 2rem;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0.25rem;
+    border: solid #ccc;
+    background-color: #f2eecb;
+}
+
+    .close-button:hover {
+        border: solid #ccc;
+        background-color: lightblue;
+
+    }
+.button {
+    border: solid #ccc;
+    background-color: #f2eecb;
+    border-radius: 0.5rem;
+}
+
+.button:hover{
+    border: solid #ccc;
+    background-color: lightblue;
+}

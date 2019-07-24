@@ -28,6 +28,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Startseite", "Index", "Home")</li>
                     <li>@Html.ActionLink("Map", "MiddleEarth", "Home")</li>
+                    <li>@Html.ActionLink("Impressum", "Impressum", "Home")</li>
                 </ul>
             </div>
         </div>
@@ -43,6 +44,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/javascript")
+    <script src="~/Scripts/contact-form.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
