@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<seas>
+    <sea>
+        <name>Númen-Meer</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Golf von Lhûn</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Anduin</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Gwathló</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Isen</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Poros</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Nargil</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Camen</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Celduin</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Bruinen</name>
+        <info></info>
+    </sea>
+    <sea>
+        <name>Wässer</name>
+        <info>Neben dem Brandywein der größte Fluss im Auenland.</info>
+    </sea>
+     <sea>
+        <name>Brandywein</name>
+        <info>Fließt durch Eriador und kommt aus dem Nenuial-See. Bildet teilweise die Grenze des Auenlandes.</info>
+    </sea>
+	<sea>
+		<name>Mündung Anduin</name>
+		<info>Die Mündung des Anduins wo er in den großen Ozean Belegaer fließt.</info>
+	</sea>
+	<sea>
+		<name>Belegaer</name>
+		<info>Belegaer auch als Westmeer, Scheidemeer und Großes Wasser bekannt. Es trennt Mittelerde von Aman.</info>
+	</sea>
+	<sea>
+		<name>Meer von Rhûn</name>
+		<info>Das Meer von Rhûn ist ein großes Binnenmeer im Osten von Mittelerde. Die beiden Flüsse Celduin und Carnen münden in das Meer.</info>
+	</sea>
+</seas>

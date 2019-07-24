@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<territories>
+	<territory>
+		<name>Ahrnor</name>
+		<landscape>Hügelketten, Ebenen, Wälder, Wiesen, Berge, Flüsse, Felder, Tundra</landscape>
+		<pop>Dúnedain, Hobbits, verteilt Bergmenschen</pop>
+		<languages>Adûnaïsch, später Westron</languages>
+		<info>Die Alte Hauptstadt war Annúminas. Nach dem Zerfall wurde Fornost die neue Hauptstadt.</info>
+		<city></city>
+		<river></river>
+		<mountain></mountain>
+	</territory>
+	<territory>
+		<name>Arthedain</name>
+		<landscape>Hügelketten, Ebenen, Wälder, Wiesen, Felder, Flüsse</landscape>
+		<pop>Dúnedain</pop>
+		<languages>Adûnaïsch, später Westron</languages>
+		<info>Die Hauptstadt ist Fornost.Der Aussichtspunkt Amon Sûl, auch Wetterspitze genannt bietet einen Guten Blick auf Oststraße Richtung Rhudaur. </info>
+		<city></city>
+		<river></river>
+		<mountain></mountain>
+	</territory>
+	<territory>
+		<name>Auenland</name>
+		<landscape>Hügelketten, Ebenen, Wälder, Wiesen, Berge, Flüsse, Felder, Tundra</landscape>
+		<pop>Hobbits, Dúnedain</pop>
+		<languages>Adûnaïsch, später Westron</languages>
+		<info>Heimat der Hobbits. Neben Breeland und Gondor das am dichtesten besiedelte Gebiet von Mittelerde. Es gibt reichlich viele intakte Straßen, Postämter und Tavernen.</info>
+		<river>Wässer</river>
+		<river>Brandywein</river>
+		<city>Hobbingen</city>
+		<city>Wasserau</city>
+		<city>Froschmoorstetten</city>
+		<city>Stock</city>
+		<city>Krickloch</city>
+		<city>Tuckbergen</city>
+		<mountain>Wettergebirge</mountain>
+	</territory>
+	<territory>
+		<name>Breeland</name>
+		<landscape>Wald, Wiesen, Hügel </landscape>
+		<pop>Menschen und Hobbits</pop>
+		<languages>Westron</languages>
+		<info>Es liegt an der Kreuzung der Oststraße und der alten Nordstraße</info>
+		<city>Bree</city>
+		<city>Archet</city>
+		<city>Stadel</city>
+		<river></river>
+		<mountain></mountain>
+	</territory>
+	<territory>
+		<name>Bruchtal</name>
+		<landscape>Bäche, Gebirge, Wiesen, Felsklüfte</landscape>
+		<pop>Elben, Halbelben</pop>
+		<languages>Quenya, Sindarin, Westron</languages>
+		<info>In einr verborgenen Schlucht westlich vom Nebelgebirge zwischen dem Fluss Bruinen und dem Zufluss von Bruinen.</info>
+		<city></city>
+		<river></river>
+		<mountain></mountain>
+	</territory>
+	<territory>
+		<name>Cardolan</name>
+		<landscape>Wälder, Ebenen</landscape>
+		<pop>Dúnedain</pop>
+		<languages>Adûnaïsch, später Westron</languages>
+		<info>Königreich im Süden von Eriador. Dort liegen auch die Hügelgräberhöhen.</info>
+		<city></city>
+		<river></river>
+		<mountain></mountain>
+	</territory>
+	<territory>
+		<name>Eregion</name>
+		<landscape>Große Wälder</landscape>
+		<pop>Elben, Noldor</pop>
+		<languages>Quenya, Sindarin</languages>
+		<info>Im Osten von Eriador. Südgrenze bildet der Fluss Glanduin. Westgrenze ist der Fluss Weissquell. Nordgrenze ist der Bruinen.</info>
+		<city></city>
+		<river></river>
+		<mountain></mountain>
+	</territory>
+	<territory>
+		<name>Rhudaur</name>
+		<landscape>Hügel, Wälder, Flüsse</landscape>
+		<pop>Rhudaurrim, teilweise Dúnedain</pop>
+		<languages>Adûnaïsch, später Westron</languages>
+		<info>Im Osten Eriadors. Im Südwesten grenzte Cardolan und im Westen Arthedain an.</info>
+		<city></city>
+		<river></river>
+		<mountain></mountain>
+	</territory>
+</territories>

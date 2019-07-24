@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"?>
+<cities>
+    <city>
+        <name>Mithlond</name>
+        <info>Elbische Hafenstadt</info>
+        <pop>Elben</pop>
+        <laguages>Quenya, Sindarin</laguages>
+        <sights></sights>
+    </city>
+    <city>
+        <name>Ost-in-Edhil</name>
+        <info>Elbenstadt (Hauptstadt)</info>
+        <pop>Elben, Menschen</pop>
+        <laguages>Westron, Quenya, Sindarin</laguages>
+        <sights></sights>
+    </city>
+    <city>
+        <name>Minas Tirith</name>
+        <info>Liegt auf dem 200 Meter hohen Berg der Wacht. Und hat oben den Weißen Baum der das Reich schützt</info>
+        <pop>Menschen</pop>
+        <laguages>Westron</laguages>
+        <sights>Weißer Baum</sights>
+    </city>
+    <city>
+        <name>Osgiliath</name>
+        <info>Alte Hauptstadt von Gondor,welche wegen Saurons Armee aufgegeben wurde.Sie liegt auf beiden Seiten von Anduin und zwischen Minas Anor und Minas Ithil.</info>
+        <pop>Menschen , Orks</pop>
+        <laguages>Westron, Schwarze Sprache</laguages>
+        <sights>Kuppel der Sterne mit Thronsaal</sights>
+    </city>
+    <city>
+        <name>Armenelos</name>
+        <info>Es befindet sich dort der weiße Baum Nimloth, der Königspalast und der Tempel von Sauron für Melkor.</info>
+        <pop>Menschen</pop>
+        <laguages></laguages>
+        <sights>Tempel von Sauron für Melkor,weiße Baum Nimloth</sights>
+    </city>
+    <city>
+        <name>Edoras</name>
+        <info>Die Goldene Halle Meduseld liegt hier.</info>
+        <pop>Menschen, Rohirrim</pop>
+        <laguages>Rohirrisch, Westron</laguages>
+        <sights>Goldene Halle Meduseld</sights>
+    </city>
+     <city>
+        <name>Hobbingen</name>
+        <info>Dorf im Westviertel vom Auenland am Ufer vom Wässer.</info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights>Bilbos Haus</sights>
+    </city>
+    <city>
+        <name>Wasserau</name>
+        <info>Liegt im östlichen Teil des Westviertels und von Hobbingen. Nördlich liegt der Wasserauer See.</info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights>Gasthaus Grüner Drachen</sights>
+    </city>
+    <city>
+        <name>Froschmoorstetten</name>
+        <info>Dorf im Ostviertel des Auenlandes, welches an der Oststraße liegt.</info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights>Das Gasthaus Schwimmender Balken</sights>
+    </city>
+     <city>
+        <name>Stock</name>
+        <info>Im Norden des Bruchs und südlich der Brandyweinbrücke. Der Stockbach mündet hier in den Brandywein.</info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights>Das Wirtshaus Golener Barsch.</sights>
+    </city>
+     <city>
+        <name>Krickloch</name>
+        <info>Liegt im Bockland, nördlich von Bockenburg.</info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights>Frodos Haus, welches er sich als angeblichen Ruheort gekauft hat.</sights>
+    </city>
+    <city>
+        <name>Tuckbergen</name>
+        <info>Größte und älteste Ansiedlung im Westviertel am Südhang der Grünberge</info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights></sights>
+    </city>
+     <city>
+        <name>Michelbinge</name>
+        <info>Hauptstadt vom Auenland. Es liegt im Westviertel auf dem Kamm der Weißen Höhen. </info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights>Stadthöhle und das Mathom-Haus</sights>
+    </city>
+    <city>
+        <name>Bree</name>
+        <info>Hauptstadt im Breeland. Nordöstlich liegt der Chetwald. </info>
+        <pop>Menschen, Hobbits, Dúnedain </pop>
+        <laguages>Westron</laguages>
+        <sights>Zum Tänzelnden Pony</sights>
+    </city>
+    <city>
+        <name>Archet</name>
+        <info>Ruhiges Dorf nordöstlich vom Handelszentrum Bree.</info>
+        <pop>Menschen, Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights></sights>
+    </city>
+     <city>
+        <name>Stadel</name>
+        <info>Siedlung die nicht weit vom östlichen Tor Brees liegt.</info>
+        <pop>Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights></sights>
+    </city>
+      <city>
+        <name>Schlucht</name>
+        <info>Abgelegendste der Vier Dörfer.</info>
+        <pop>Menschen, Hobbits</pop>
+        <laguages>Westron</laguages>
+        <sights>Einzige Herberge außerhalb von Bree</sights>
+    </city>
+</cities>

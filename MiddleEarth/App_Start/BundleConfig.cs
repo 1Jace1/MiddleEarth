@@ -23,7 +23,8 @@ namespace MiddleEarth
 					  "~/Scripts/bootstrap.js"));
 
 			bundles.Add(new ScriptBundle("~/bundles/javascript").Include(
-					  "~/Scripts/scripts.js"));
+					  "~/Scripts/scripts.js",
+					  "~/Scripts/search.js"));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
 					  "~/Content/Bootstrap/bootstrap.css",
