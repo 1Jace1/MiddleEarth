@@ -154,13 +154,13 @@
     <Content Include="Content\Pictures\Logo Webengineering.jpeg" />
     <Content Include="Content\Pictures\LordOfTheRingMiddleEarth.jpg" />
     <Content Include="Content\Pictures\Minas_Tirith.jpg" />
+    <Content Include="Content\Pictures\Mordor.jpg" />
     <Content Include="Content\Pictures\Mordor.png" />
     <Content Include="Content\Pictures\Rohan.jpg" />
     <Content Include="Content\Pictures\Auenland.jpg" />
     <Content Include="Content\Pictures\Bruchtal.jpg" />
     <Content Include="Content\Pictures\LordOfTheRingMiddleEarth.jpg" />
     <Content Include="Content\Pictures\Minas_Tirith.jpg" />
-    <Content Include="Content\Pictures\Mordor.jpg" />
     <Content Include="Content\Svg\map.svg" />
     <Content Include="Content\XmlFiles\file.xml" />
     <Content Include="Content\XmlFiles\Impressum.xml" />
