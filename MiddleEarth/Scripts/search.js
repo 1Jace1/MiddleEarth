@@ -51,7 +51,7 @@ function openAndClosePopUp(popup) {
 	point[0].style.fill = "red";
 	modal.style.display = "block";
 
-	$(".close").on('click', function () {
+	$(".close-button").on('click', function () {
 		modal.style.display = "none";
 		point[0].style.display = currentDisplay;
 		point[0].style.fill = color;
