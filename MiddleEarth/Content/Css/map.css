@@ -43,3 +43,23 @@ ellipse:hover {
 #fortressLayer ellipse {
 	fill: violet;
 }
+
+/* Search Section */
+
+#ui-id-1 {
+	background-color: #ffffff;
+	width: 100% !important;
+	max-width: 172px !important;
+	padding: 0;
+}
+
+#ui-id-1 .ui-menu-item {
+	list-style: none;
+}
+
+	#ui-id-1 .ui-menu-item:hover {
+		background: #fff;
+		opacity: 0.5;
+	}
+
+/* End of Search Section*/

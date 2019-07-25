@@ -13,9 +13,9 @@
         }
     };
 
-    $(".close-button").on("click", function () {
+	$("#contact-popup .close-button").on("click", function () {
         modal.style.display = "none";
-    });
+	});
 
 });
 

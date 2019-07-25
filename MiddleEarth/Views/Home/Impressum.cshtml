@@ -1,11 +1,11 @@
 @{
-    string pathImp = Server.MapPath("~/Content/XsltFiles/Impressum.xslt");
+	string pathImp = Server.MapPath("~/Content/XsltFiles/Impressum.xslt");
 
 }
 @using MiddleEarth.Extension
 
-<br/>
+<br />
 
 <div>
-    @Html.RenderXml(ViewBag.DataImp as string, pathImp)
+	@Html.RenderXml(ViewBag.DataImp as string, pathImp)
 </div>

@@ -9,22 +9,20 @@ namespace MiddleEarth
 		public static void RegisterBundles(BundleCollection bundles)
 		{
 			bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-						"~/Scripts/jquery-{version}.js"));
+						"~/Scripts/Jquery/jquery-{version}.js",
+						"~/Scripts/Jquery/jquery-ui-{version}.js"));
 
 			bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-						"~/Scripts/jquery.validate*"));
+						"~/Scripts/Jquery/jquery.validate*"));
 
-			// Verwenden Sie die Entwicklungsversion von Modernizr zum Entwickeln und Erweitern Ihrer Kenntnisse. Wenn Sie dann
-			// bereit ist für die Produktion, verwenden Sie das Buildtool unter https://modernizr.com, um nur die benötigten Tests auszuwählen.
+			//Modernizr für Browserkompatibilität für Css3, HTML5 und JavaScript, sodass es in älteren Versionen trotzdem funktioniert
 			bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
 						"~/Scripts/modernizr-*"));
 
-			bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-					  "~/Scripts/bootstrap.js"));
-
 			bundles.Add(new ScriptBundle("~/bundles/javascript").Include(
 					  "~/Scripts/scripts.js",
-					  "~/Scripts/search.js"));
+					  "~/Scripts/search.js",
+					  "~/Scripts/contact-form.js"));
 
 			bundles.Add(new StyleBundle("~/Content/css").Include(
 					  "~/Content/Bootstrap/bootstrap.css",

@@ -2,14 +2,14 @@
 
 $(document).ready(function () {
 
-	$(document).on("click", "svg", function (event) {
+	$(document).on("click", "#map", function (event) {
 		var text = $(event.target).attr("class");
 
-		var modal = document.getElementById("popup-"+text);
+		var modal = document.getElementById("popup-" + text);
 		modal.style.display = "block";
 
 		// When the user clicks on <span> (x), close the popup
-		$(".close").on('click', function () {
+		$(".close-button").on("click", function () {
 			modal.style.display = "none";
 		});
 

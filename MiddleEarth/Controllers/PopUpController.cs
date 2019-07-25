@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Net;
+using System.Net.Mail;
 using System.Web.Mvc;
-using MiddleEarth.Models;
-using MiddleEarth.Data.Helper;
 
 namespace MiddleEarth.Controllers
 {
@@ -31,5 +27,6 @@ namespace MiddleEarth.Controllers
 
 			return PartialView();
 		}
+
 	}
 }

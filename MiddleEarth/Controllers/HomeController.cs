@@ -1,10 +1,4 @@
-﻿using MiddleEarth.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using MiddleEarth.Data.Helper;
+﻿using System.Web.Mvc;
 
 namespace MiddleEarth.Controllers
 {
@@ -20,12 +14,12 @@ namespace MiddleEarth.Controllers
 			return View();
 		}
 
-        public ActionResult Impressum()
-        {
-            string xmlImp = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/Impressum.xml"));
-            ViewBag.DataImp = xmlImp;
+		public ActionResult Impressum()
+		{
+			string xmlImp = System.IO.File.ReadAllText(Server.MapPath("~/Content/XmlFiles/Impressum.xml"));
+			ViewBag.DataImp = xmlImp;
 
-            return View();
-        }
+			return View();
+		}
 	}
 }
