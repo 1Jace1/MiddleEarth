@@ -55,3 +55,30 @@
 		background: red;
 		color: red;
 	}
+
+@media only screen and (max-width: 1200px) {
+	.modal-content.contact {
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: 950px) {
+	.modal-content {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.modal-content,
+	.modal-content.contact {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.modal-content,
+	.modal-content.contact {
+		width: 100%;
+	}
+}
