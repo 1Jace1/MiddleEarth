@@ -18,11 +18,3 @@
 	});
 
 });
-
-$(document).keydown(function (e) {
-    var popup = document.getElementById("contact-popup");
-    // ESCAPE key pressed
-    if (e.keyCode === 27) {
-        popup.style.display = "none";
-    }
-});
