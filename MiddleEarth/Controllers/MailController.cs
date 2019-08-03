@@ -32,7 +32,7 @@ namespace MiddleEarth.Controllers
 			// you may need to enable the "allow less secure apps" flag in you google mail account
 			// https://www.google.com/settings/security/lesssecureapps
 			string to = _to;
-			string from = _sender;
+			string from = email;
 			using (MailMessage mail = new MailMessage(from, to))
 			{ 
 				mail.Subject = _subject;
