@@ -47,8 +47,12 @@ function openAndClosePopUp(popup) {
 	var point = document.getElementsByClassName(name);
 	var color = point[0].style.fill;
 	var currentDisplay = point[0].style.display;
+	var sizerx = point[0].getAttribute("rx");
+	var sizery = point[0].getAttribute("ry");
 	point[0].style.display = "block";
 	point[0].style.fill = "red";
+	point[0].setAttribute("rx", "20px");
+	point[0].setAttribute("ry", "20px");
 	modal.style.display = "block";
 
 	$(".close-button").on('click', function () {
@@ -63,6 +67,8 @@ function openAndClosePopUp(popup) {
 			modal.style.display = "none";
 			point[0].style.display = currentDisplay;
 			point[0].style.fill = color;
+			point[0].setAttribute("rx", sizerx);
+			point[0].setAttribute("ry", sizery);
 		}
 	};
 
@@ -73,6 +79,8 @@ function openAndClosePopUp(popup) {
 			modal.style.display = "none";
 			point[0].style.display = currentDisplay;
 			point[0].style.fill = color;
+			point[0].setAttribute("rx", sizerx);
+			point[0].setAttribute("ry", sizery);
 		}
 	});
 }

@@ -144,7 +144,8 @@ textarea {
 }
 
 .review-form .user,
-.review-form .stars{
+.review-form .stars,
+.modal-content.contact p{
 	font-weight: bold;
 }
 
@@ -178,6 +179,11 @@ button {
         background: #666666;
         color: #ffffff;
     }
+
+.modal-content.contact textarea{
+	resize: none;
+	height: 150px;
+}
 
 /* Responsive Section */
 
