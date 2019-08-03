@@ -56,7 +56,7 @@
 			</span>
 			<div id="contact-popup" class="modal">
 				<div class="modal-content contact">
-					<form>
+					<form method="post" action="/mail/sendmail" target="_blank">
 						<div class="close-button">
 							<span style="display:none;">x</span>
 						</div>
@@ -68,7 +68,7 @@
 						<input type="text" size="75%" class="inputname" placeholder="Ihr Name" name="name" required=""></input>
 						<br/>
 						<br/>
-						<textarea rows="4" cols="50" placeholder="Ihre Anfrage" name="text" class="text" required="">Ihre Anfrage</textarea>
+						<textarea rows="4" cols="50" placeholder="Ihre Anfrage" name="message" class="text" required="">Ihre Anfrage</textarea>
 						<br/>
 						<br/>
 						<input type="submit" value="Absenden!" class="button send"></input>

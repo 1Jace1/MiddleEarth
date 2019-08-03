@@ -24,7 +24,7 @@ namespace MiddleEarth
 					  "~/Scripts/search.js",
 					  "~/Scripts/contact-form.js"));
 
-			bundles.Add(new StyleBundle("~/Content/css").Include(
+			bundles.Add(new StyleBundle("~/bundles/css").Include(
 					  "~/Content/Bootstrap/bootstrap.css",
 					  "~/Content/Css/site.css",
 					  "~/Content/Css/PopUp.css",
