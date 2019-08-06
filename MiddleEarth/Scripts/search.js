@@ -57,18 +57,14 @@ function openAndClosePopUp(popup) {
 
 	$(".close-button").on('click', function () {
 		modal.style.display = "none";
-		point[0].style.display = currentDisplay;
-		point[0].style.fill = color;
+		setDefaultPointValues(point[0], color, currentDisplay, sizerx, sizery);
 	});
 
 	// When the user clicks anywhere outside of the popup, close it
 	window.onclick = function (event) {
 		if (event.target === modal) {
 			modal.style.display = "none";
-			point[0].style.display = currentDisplay;
-			point[0].style.fill = color;
-			point[0].setAttribute("rx", sizerx);
-			point[0].setAttribute("ry", sizery);
+			setDefaultPointValues(point[0], color, currentDisplay, sizerx, sizery);
 		}
 	};
 
@@ -77,12 +73,16 @@ function openAndClosePopUp(popup) {
 		// ESCAPE key pressed
 		if (e.keyCode === 27) {
 			modal.style.display = "none";
-			point[0].style.display = currentDisplay;
-			point[0].style.fill = color;
-			point[0].setAttribute("rx", sizerx);
-			point[0].setAttribute("ry", sizery);
+			setDefaultPointValues(point[0], color, currentDisplay, sizerx, sizery);
 		}
 	});
+}
+
+function setDefaultPointValues(point, color, currentDisplay, sizerx, sizery) {
+	point.style.display = currentDisplay;
+	point.style.fill = color;
+	point.setAttribute("rx", sizerx);
+	point.setAttribute("ry", sizery);
 }
 
 //Removes unesseseceraly rendered element
