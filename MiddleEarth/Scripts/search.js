@@ -78,6 +78,7 @@ function openAndClosePopUp(popup) {
 	});
 }
 
+//sets the point back to its original design
 function setDefaultPointValues(point, color, currentDisplay, sizerx, sizery) {
 	point.style.display = currentDisplay;
 	point.style.fill = color;
